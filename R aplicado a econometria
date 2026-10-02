@@ -1,0 +1,70 @@
+# ==============================================================================
+# CÓDIGO AUTORAL - PEDRO KONSTANTINO FREIRE VOLTEZOU
+# ------------------------------------------------------------------------------
+# Script autoral para extração e análise econométrica dos microdados da PNAD Contínua (IBGE, 4º trimestre de 2024). O código filtra a amostra para mulheres brancas no estado de São Paulo com rendimento positivo inferior a R$ 50.000, calcula estatísticas descritivas da renda, quantifica valores em falta e estima um modelo de regressão linear log-nível para avaliar o impacto dos anos de estudo sobre o logaritmo do rendimento, calculando ainda manualmente a variância do estimador beta_1.
+# ==============================================================================
+
+library(PNADcIBGE)
+library(dplyr)
+
+vars_exercicio <- c("V2007", "V2009", "V2010", "VD4020", "VD3005")
+
+pnad_2024_q4 <- get_pnadc(
+  year = 2024,
+  quarter = 4,
+  vars = vars_exercicio,
+  design = FALSE
+)
+
+pnad_2024_q4 <- pnad_2024_q4 %>%
+  rename(
+    Sexo = V2007,
+    Idade = V2009,
+    Cor = V2010,
+    Renda = VD4020,
+    Anos_Estudo = VD3005
+  ) %>%
+  mutate(Anos_Estudo_num = as.numeric(Anos_Estudo) - 1)
+
+dados_filtrados <- pnad_2024_q4 %>%
+  filter(
+    UF == "São Paulo",
+    Sexo == "Mulher",
+    Cor == "Branca",
+    Renda < 50000 & Renda > 0
+  )
+
+# a) Número de observações na amostra filtrada
+nrow(dados_filtrados)
+
+# b) Estatísticas descritivas da renda
+dados_filtrados %>% 
+  summarise(
+    media = mean(Renda, na.rm = TRUE),
+    mediana = median(Renda, na.rm = TRUE),
+    desvio_padrao = sd(Renda, na.rm = TRUE),
+    minimo = min(Renda, na.rm = TRUE),
+    maximo = max(Renda, na.rm = TRUE)
+  )
+
+# c) Contagem de valores ausentes na renda para a demografia selecionada
+amostra_demografica <- pnad_2024_q4 %>% filter(
+  UF == "São Paulo", Sexo == "Mulher", Cor == "Branca" 
+) 
+sum(is.na(amostra_demografica$Renda))
+
+# d) Estimação do modelo Minceriano (log-nível)
+modelo <- lm(log(Renda) ~ Anos_Estudo_num, data = dados_filtrados)
+summary(modelo)
+
+# e) Coeficiente de determinação (R²)
+summary(modelo)$r.squared
+
+# f) Cálculo manual da variância teórica do estimador beta_1
+e <- residuals(modelo)
+n <- length(e)
+s2 <- sum(e^2)/(n-2)
+x <- dados_filtrados$Anos_Estudo_num
+SST_x <- sum((x - mean(x))^2)
+var_beta1 <- s2/SST_x 
+print(var_beta1)
