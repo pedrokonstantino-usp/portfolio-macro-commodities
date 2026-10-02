@@ -1,6 +1,6 @@
 # portfolio-macro-commodities
 Relatórios de análise fundamentalista de commodities, artigos macroeconômicos, automações em Python e modelo econométrico em R.
-# Sou o Pedro Konstantino :)
+
 
  **Estudante de Ciências Econômicas na FEARP/USP**  
  **Diretor de Macro Research e Ex-Diretor de Commodities na Gasset https://www.linkedin.com/company/gasset/ (Clube de Investimentos USP)**  
