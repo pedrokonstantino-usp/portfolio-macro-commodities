@@ -1,5 +1,24 @@
-https://colab.research.google.com/drive/1o2EQ6AZOSW1QwPsMlMp9V4QkdX-4Qbt1?usp=sharing  -> reunião da área de Macro Research em conjunto com a equipe de Commodities. O código simula e contrasta a dinâmica macroeconômica de longo prazo entre uma economia baseada na exportação de bens primários (padrão do desenvolvimento sul-americano) e uma economia de alta complexidade tecnológica (padrão de polos como São José dos Campos e do Sudeste Asiático). A modelagem quantifica os impactos dos ciclos de preços internacionais de commodities sobre a Produtividade Total dos Fatores (TFP), a volatilidade do PIB real e a evolução dos salários reais ao longo de um horizonte de 30 anos
-https://colab.research.google.com/drive/1uOc2b3tgiLvGqHJXVeOWFeoW-hRsL5-z?usp=sharing -> trainee em introdução a precificação (teoria microeconômica) para commodities e macro research
-https://colab.research.google.com/drive/1a_mp4YNJ36DfEN5Bz33qa5G9WGWHvVNE?usp=sharing -> trainee para área de macro
-https://colab.research.google.com/drive/1CC7W7KlnZuhts_O0nKkSzhEXEKUP-v6r?usp=sharing -> trainee para área macro, foco em União Europeia 
-Todos os códigos desta pasta foram escritos com auxílio de IA generativa.
+# Portfólio de Pesquisa Macroeconômica (Macro Research)
+
+> **Nota de Desenvolvimento:**  
+> Os modelos quantitativos, scripts e rotinas de análise presentes nesta seção foram desenvolvidos utilizando IA generativa como ferramenta de suporte à produtividade e modelagem.
+
+---
+
+## Modelagem Macroeconômica & Simulações Quantitativas
+
+* **[Modelo Dinâmico — Armadilha de Commodities vs. Complexidade Econômica](https://colab.research.google.com/drive/1o2EQ6AZOSW1QwPsMlMp9V4QkdX-4Qbt1?usp=sharing)**  
+  *Simulação de longo prazo (horizonte de 30 anos) apresentada em reunião conjunta entre as equipes de Macro Research e Commodities. O modelo contrasta a dinâmica de economias baseadas na exportação de bens primários (padrão sul-americano) e polos de alta complexidade tecnológica (padrão de São José dos Campos e Sudeste Asiático), mensurando os impactos dos ciclos de preços na Produtividade Total dos Fatores (TFP), na volatilidade do PIB e nos salários reais.*
+
+---
+
+## Capacitação Técnica & Treinamento de Trainees
+
+* **[Google Colab — Introdução à Precificação e Teoria Microeconômica](https://colab.research.google.com/drive/1uOc2b3tgiLvGqHJXVeOWFeoW-hRsL5-z?usp=sharing)**  
+  *Material de suporte para treinamento de trainees focado nos fundamentos de teoria microeconômica aplicados à precificação de commodities e análise macro.*
+
+* **[Google Colab — Fundamentos de Análise Macro](https://colab.research.google.com/drive/1a_mp4YNJ36DfEN5Bz33qa5G9WGWHvVNE?usp=sharing)**  
+  *Notebook explicativo desenvolvido para a formação inicial de novos membros da equipe de Macro Research.*
+
+* **[Google Colab — Análise Macroeconômica: União Europeia](https://colab.research.google.com/drive/1CC7W7KlnZuhts_O0nKkSzhEXEKUP-v6r?usp=sharing)**  
+  *Treinamento prático direcionado ao acompanhamento e análise do bloco europeu, cobrindo dinâmicas monetárias, fiscais e indicadores econômicos.*
