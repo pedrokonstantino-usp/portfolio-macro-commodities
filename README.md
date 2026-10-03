@@ -9,7 +9,6 @@ Relatórios de análise fundamentalista de commodities, artigos macroeconômicos
 ---
 
 ###  Sobre mim
-Atuo no desenvolvimento de teses fundamentalistas, acompanhamento de cenários macroeconômicos e modelagem econométrica aplicados ao mercado financeiro e de commodities. Tenho foco em aliar análise quantitativa com visão de mercado.
 
 -  **Áreas de interesse:** Market Research, Commodities Agrícolas, Análise Setorial, Macroeconomia e Econometria Aplicada.
 -  **Stack Técnica:** Python (Análise de dados e automação, com auxílio de IA), R (Modelagem Econométrica básica), calculadora HP12c e Excel/pacote office.
