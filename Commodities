@@ -1,11 +1,11 @@
 # Portfólio de Análise de Commodities & Macroeconomia
 
 > **Nota de Gestão & Liderança:**  
-> Os relatórios, teses e apresentações reunidos neste repositório foram desenvolvidos sob minha **direção e orientação técnica** na área de Commodities. O material reflete o trabalho de formação de trainees, condução de reuniões de análise setorial e revisão crítica de teses de investimento desenvolvidas pela equipe.
+> Os relatórios, teses e apresentações reunidos neste repositório foram desenvolvidos sob minha direção e orientação técnica na área de Commodities. O material reflete o trabalho de formação de trainees, condução de reuniões de análise setorial e revisão crítica de teses de investimento desenvolvidas pela equipe. A tese de investimento em Aura33 é autoral, desenvolvida em coautoria durante meu período enquanto trainee.
 
 ---
 
-## Teses de Investimento & Apresentações Executivas
+## Teses de Investimento 
 
 * **[Tese de Investimento — Óleo de Palma](https://canva.link/8ux0yupcmsbhd4a)**  
   *Análise setorial e tese de investimento focada no mercado global de óleo de palma.*
@@ -14,8 +14,7 @@
 
 ---
 
-## Relatórios de Pesquisa Setorial & Macro
-
+## Relatórios de Pesquisa Setorial
 * **[Relatório Macro — Petróleo Brent](https://docs.google.com/document/d/1yMAYOg_pkUo7epYS00dZJRX_9lPyvn3g9g8wKfLzaps/edit?usp=drivesdk)**  
   *Análise do mercado de petróleo bruto, dinâmicas geopolíticas e impactos em preços.*
 * **[Relatório Setorial — Cana-de-Açúcar & Etanol](https://docs.google.com/document/d/1AmkoKjZ2h8M3iUE4xDzRVBwLgcK1PtSHAMwBGNSB8x8/edit?usp=drivesdk)**  
@@ -41,4 +40,4 @@
 ## Modelagem Quantitativa & Código
 
 * **[Google Colab — Precificação e Mercado de Petróleo](https://colab.research.google.com/drive/1eQgnK6w6FkrEQ7P9AzMKwnSmopKtfuKJ?usp=sharing)**  
-  *Notebook em Python com rotinas e análises de introdução à precificação no mercado de petróleo.*
+  *Notebook em Python com rotinas e análises de introdução à precificação no mercado de petróleo. Desenvolvido com auxílio de IA.*
