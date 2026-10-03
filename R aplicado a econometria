@@ -1,8 +1,7 @@
-# ==============================================================================
-# CÓDIGO AUTORAL - PEDRO KONSTANTINO FREIRE VOLTEZOU
-# ------------------------------------------------------------------------------
+
+# CÓDIGO AUTORAL 
 # Script autoral para extração e análise econométrica dos microdados da PNAD Contínua (IBGE, 4º trimestre de 2024). O código filtra a amostra para mulheres brancas no estado de São Paulo com rendimento positivo inferior a R$ 50.000, calcula estatísticas descritivas da renda, quantifica valores em falta e estima um modelo de regressão linear log-nível para avaliar o impacto dos anos de estudo sobre o logaritmo do rendimento, calculando ainda manualmente a variância do estimador beta_1.
-# ==============================================================================
+# ==========
 
 library(PNADcIBGE)
 library(dplyr)
